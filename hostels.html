@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DORMQUEST Hostels</title>
+    <!-- custom css file link  -->
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+</body>
+<header class="header">
+
+   <div class="image"><img src="image/logo.png" style="height: 125px; width:200px; margin-top:0px; margin-left: 0px;"></div>
+
+    <nav class="navbar">
+        <a href="index.html">home</a>
+        <a href="#features">features</a>
+        <a href="hostels.html">hostels</a>
+        <a href="index.html" class="review">review</a>
+    </nav>
+
+ <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <a href="index.html"> <div class="fas fa-hotel" id="hotels-btn"></a></div></a>
+<!--dropdown-->
+    <div class="dropdown">
+        <button class="dropbtn"> <i class="fas fa-user" ></i></button>
+      <div class="dropdown-content">
+       <ul>
+        <li> <a href="#"> PROFILE</a></li>
+        <li> <a href="#"> LOGOUT</a></li>
+        </ul>
+        </div>
+ </div>
+</div>
+<!--dropdown ends-->
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+   
+
+</header>
+
+<!-- header section ends -->
+<!-- products section starts  -->
+
+<section class="products" id="products">
+    
+    <h1 class="heading"> our <span>Hostel</span> </h1>
+    
+
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/product-1.png" alt="">
+                <h3>Subhatara Hostel</h3>
+                <div class="price"> Rs7500 - Rs9000 </div>
+                <div class="stars">
+                    <div style = "" class="rate"><input type="radio" id="star5" name="rate" value="5" />
+                        <label for="star5" title="text">5 stars</label>
+                        <input type="radio" id="star4" name="rate" value="4" />
+                        <label for="star4" title="text">4 stars</label>
+                        <input type="radio" id="star3" name="rate" value="3" />
+                        <label for="star3" title="text">3 stars</label>
+                        <input type="radio" id="star2" name="rate" value="2" />
+                        <label for="star2" title="text">2 stars</label>
+                        <input type="radio" id="star1" name="rate" value="1" />
+                        <label for="star1" title="text">1 star</label>
+                    </div>
+                    
+                </div>
+                </div>
+                <a href="#products" class="btn">Book this</a>
+                        
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/product-2.png" alt="">
+                <h3>Rameshwor Hostel</h3>
+                <div class="price"> Rs 8000 - Rs 12000 </div>
+                <div class="stars" >
+                    <div style = "" class="rate"><input type="radio" id="star5" name="rate" value="5" />
+                        <label for="star5" title="text">5 stars</label>
+                        <input type="radio" id="star4" name="rate" value="4" />
+                        <label for="star4" title="text">4 stars</label>
+                        <input type="radio" id="star3" name="rate" value="3" />
+                        <label for="star3" title="text">3 stars</label>
+                        <input type="radio" id="star2" name="rate" value="2" />
+                        <label for="star2" title="text">2 stars</label>
+                        <input type="radio" id="star1" name="rate" value="1" />
+                        <label for="star1" title="text">1 star</label></div>
+                    
+                </div>
+                    
+                </div>
+                <a href="#products" class="btn">Book this</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/product-3.png" alt="">
+                <h3>Chandragiri Hostel</h3>
+                <div class="price">Rs 9000- Rs 11000 </div>
+                <div class="stars">
+                    <div style ="" class="rate"><input type="radio" id="star5" name="rate" value="5" />
+                        <label for="star5" title="text">5 stars</label>
+                        <input type="radio" id="star4" name="rate" value="4" />
+                        <label for="star4" title="text">4 stars</label>
+                        <input type="radio" id="star3" name="rate" value="3" />
+                        <label for="star3" title="text">3 stars</label>
+                        <input type="radio" id="star2" name="rate" value="2" />
+                        <label for="star2" title="text">2 stars</label>
+                        <input type="radio" id="star1" name="rate" value="1" />
+                        <label for="star1" title="text">1 star</label>
+                    </div>
+                    
+                </div>
+                <a href="#" class="btn">Book this</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/product-4.png" alt="">
+                <h3>Shivapuri Hostel </h3>
+                <div class="price"> Rs6500 - Rs 9000 </div>
+                <div class="stars">
+                    <div style = "" class="rate"><input type="radio" id="star5" name="rate" value="5" />
+                        <label for="star5" title="text">5 stars</label>
+                        <input type="radio" id="star4" name="rate" value="4" />
+                        <label for="star4" title="text">4 stars</label>
+                        <input type="radio" id="star3" name="rate" value="3" />
+                        <label for="star3" title="text">3 stars</label>
+                        <input type="radio" id="star2" name="rate" value="2" />
+                        <label for="star2" title="text">2 stars</label>
+                        <input type="radio" id="star1" name="rate" value="1" />
+                        <label for="star1" title="text">1 star</label></div>
+                    
+                    </div>
+                </div>
+                <a href="#" class="btn">Book this</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/product-5.png" alt="">
+                    <h3>Chabahil Hostel</h3>
+                    <div class="price"> Rs7500 - Rs9200 </div>
+                    <div class="stars">
+                        <div style = "" class="rate"><input type="radio" id="star5" name="rate" value="5" />
+                            <label for="star5" title="text">5 stars</label>
+                            <input type="radio" id="star4" name="rate" value="4" />
+                            <label for="star4" title="text">4 stars</label>
+                            <input type="radio" id="star3" name="rate" value="3" />
+                            <label for="star3" title="text">3 stars</label>
+                            <input type="radio" id="star2" name="rate" value="2" />
+                            <label for="star2" title="text">2 stars</label>
+                            <input type="radio" id="star1" name="rate" value="1" />
+                            <label for="star1" title="text">1 star</label></div>
+                        
+                    </div>
+                   
+                    
+                    <a href="#" class="btn">Book this</a>
+                </div>
+            </div> 
+            
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+           
+
+            <div class="swiper-slide box">
+                <img src="image/product-6.png" alt="">
+                <h3>Jungey hostel</h3>
+                <div class="price"> Rs8500 - Rs12500 </div>
+                <div class="stars">
+                    <div style = "" class="rate"><input type="radio" id="star5" name="rate" value="5" />
+                        <label for="star5" title="text">5 stars</label>
+                        <input type="radio" id="star4" name="rate" value="4" />
+                        <label for="star4" title="text">4 stars</label>
+                        <input type="radio" id="star3" name="rate" value="3" />
+                        <label for="star3" title="text">3 stars</label>
+                        <input type="radio" id="star2" name="rate" value="2" />
+                        <label for="star2" title="text">2 stars</label>
+                        <input type="radio" id="star1" name="rate" value="1" />
+                        <label for="star1" title="text">1 star</label></div>
+                    
+                </div>
+                </div>
+                <a href="#" class="btn">Book this</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/product-7.png" alt="">
+                <h3>Sunita Hostel</h3>
+                <div class="price"> Rs6300 - Rs8800</div>
+                <div class="stars">
+                    <div style = "" class="rate"><input type="radio" id="star5" name="rate" value="5" />
+                        <label for="star5" title="text">5 stars</label>
+                        <input type="radio" id="star4" name="rate" value="4" />
+                        <label for="star4" title="text">4 stars</label>
+                        <input type="radio" id="star3" name="rate" value="3" />
+                        <label for="star3" title="text">3 stars</label>
+                        <input type="radio" id="star2" name="rate" value="2" />
+                        <label for="star2" title="text">2 stars</label>
+                        <input type="radio" id="star1" name="rate" value="1" />
+                        <label for="star1" title="text">1 star</label></div>
+                    
+                </div>
+                </div>
+                <a href="#" class="btn">Book this</a>
+
+            </div>  <div class="swiper-slide box">
+                <img src="image/product-9.png" alt="">
+                <h3>Sugam Hostel</h3>
+                <div class="price"> Rs4300 - Rs8800</div>
+                <div class="stars">
+                    <div style = "" class="rate"><input type="radio" id="star5" name="rate" value="5" />
+                        <label for="star5" title="text">5 stars</label>
+                        <input type="radio" id="star4" name="rate" value="4" />
+                        <label for="star4" title="text">4 stars</label>
+                        <input type="radio" id="star3" name="rate" value="3" />
+                        <label for="star3" title="text">3 stars</label>
+                        <input type="radio" id="star2" name="rate" value="2" />
+                        <label for="star2" title="text">2 stars</label>
+                        <input type="radio" id="star1" name="rate" value="1" />
+                        <label for="star1" title="text">1 star</label></div>
+                    
+                </div>
+                </div>
+                <a href="#" class="btn">Book this</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="image/product-10.png" alt="">
+                <h3>mahadev Hostel</h3>
+                <div class="price"> Rs7500 - Rs8500 </div>
+                <div class="stars">
+                    <div style = "" class="rate"><input type="radio" id="star5" name="rate" value="5" />
+                        <label for="star5" title="text">5 stars</label>
+                        <input type="radio" id="star4" name="rate" value="4" />
+                        <label for="star4" title="text">4 stars</label>
+                        <input type="radio" id="star3" name="rate" value="3" />
+                        <label for="star3" title="text">3 stars</label>
+                        <input type="radio" id="star2" name="rate" value="2" />
+                        <label for="star2" title="text">2 stars</label>
+                        <input type="radio" id="star1" name="rate" value="1" />
+                        <label for="star1" title="text">1 star</label></div>
+                    
+                </div>
+                </div>
+                
+                <a href="#" class="btn">Book this</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/product-8.png" alt="">
+                <h3>Garden Hostel</h3>
+                <div class="price"> Rs5500 - Rs8800 </div>
+                <div class="stars">
+                    <div style = "" class="rate"><input type="radio" id="star5" name="rate" value="5" />
+                        <label for="star5" title="text">5 stars</label>
+                        <input type="radio" id="star4" name="rate" value="4" />
+                        <label for="star4" title="text">4 stars</label>
+                        <input type="radio" id="star3" name="rate" value="3" />
+                        <label for="star3" title="text">3 stars</label>
+                        <input type="radio" id="star2" name="rate" value="2" />
+                        <label for="star2" title="text">2 stars</label>
+                        <input type="radio" id="star1" name="rate" value="1" />
+                        <label for="star1" title="text">1 star</label></div>
+                    
+                </div>
+                <a href="#" class="btn">Book this</a>
+            </div>
+
+        </div>
+        
+
+    </div>
+    
+
+</section>
+
+<!-- products section ends -->
+
+<!-- categories section starts  -->
+
+<section class="categories" id="categories">
+
+    <h1 class="heading">Hostels <span>categories</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/cat-1.png" alt="">
+            <h3>Boy's Hostel</h3>
+            <p></p>
+            <a href="#" class="btn">visit now</a>
+        </div>
+
+        <div class="box">
+            <img src="image/cat-2.png" alt="">
+            <h3>Girl's Hostel</h3>
+            <p></p>
+            <a href="#" class="btn">visit now</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- categories section ends -->
+
+
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image"><img src="image/logo.png" style="height: 125px; width:200px; margin-top:0px; margin-left: 0px;"></div>
+            <p> Best memories start here</p>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +9779817911272</a>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +9779869065975 </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> dormquest@gmail.com </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i>Mid-Baneshwor,Kathmandu </a>
+        </div>
+
+     
+
+        <div class="box">
+            <input type="email" placeholder="your email" class="email">
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="popup" onclick="window.open('https://mail.google.com/mail/u/0/#inbox?compose=new','name','width=1200,height=800')">
+            <input type="submit" value="Email us" class="btn">
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<!-- footer section ends -->
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+</body>
+</html>

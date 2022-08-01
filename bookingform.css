@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'poppins',sans-serif;
+}
+body{
+display: flex;
+height: 150vh;
+justify-content: center;
+align-items: center;
+padding: 10px;
+background: #27652c;
+}
+.container{
+max-width:700px;
+width: 100%;
+height:90%;
+background:rgb(133, 130, 130);
+padding: 25px 30px;
+border-radius: 10px;
+}
+.container .title{
+font-size: 25px;
+font-weight: 500;
+position: relative;
+}
+.container .title::before{
+content:'';
+position: absolute;
+left: 0;
+bottom: 0;
+height: 3px;
+width: 30px;
+background: #27652c;
+}
+
+
+/* style for user_details container*/
+.container form .user_details{
+display:flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin: 20px 0 12px 0;
+}
+/*form .user_details .input_box{
+margin-bottom: 15px;
+width:calc(100% / 2  -20px);
+}
+.user_details .input_box .details{
+display: block;
+font-weight: 500;
+margin-bottom: 5px;
+}
+/* ends here...*/
+
+/* style for input tag*/
+.user_details .input_box input{
+height: 45px;
+width: 100%;
+outline:none;
+border-radius: 5px;
+border: 1px solid #ccc;
+padding: 15px;
+font-size: 16px;
+border-bottom-width: 2px;
+transition: all 0.3s ease;
+}
+.user_details .input_box input:focus,
+.user_details .input_box input:valid{
+border-color: #27652c;
+
+}
+/* ends here......*/
+
+
+/* style for select tag for ROOM*/
+.user_details .input_box .room_select{
+height: 45px;
+width: 100%;
+outline:none;
+border-radius: 5px;
+border: 1px solid #ccc;
+padding: 10px;
+font-size: 16px;
+border-bottom-width: 2px;
+transition: all 0.3s ease;
+}
+.user_details .input_box .room_select:focus,
+.user_details .input_box .room_select:valid{
+border-color: #27652c;;
+}
+/*ends here.....*/
+/* style for select tag for BED*/
+.user_details .input_box .bed_select{
+height: 45px;
+width: 100%;
+outline:none;
+border-radius: 5px;
+border: 1px solid #ccc;
+padding: 10px;
+font-size: 16px;
+border-bottom-width: 2px;
+transition: all 0.3s ease;
+}
+.user_details .input_box .bed_select:focus,
+.user_details .input_box .bed_select:valid{
+border-color: #27652c;;
+}
+/*ends here.......*/
+
+
+
+
+/*style for gender tag*/
+form .gender_details .gender_title{
+font-size: 20px;
+font-weight: 500;
+}
+form .gender_details .category{
+display: flex;
+width: 80%;
+margin-bottom: 14px 0;
+justify-content: space-between;
+}
+.gender_details .category label{
+display: flex;
+align-items: center;
+}
+.gender_details .category .dot{
+height: 18px;
+width: 18px;
+background: #d9d9d9;
+border-radius: 50%;
+margin-right: 10px;
+border: 5px solid transparent;
+
+}
+#dot_1:checked~ .category label .one,
+#dot_2:checked~ .category label .two,
+#dot_3:checked~ .category label .three{
+border-color: #d9d9d9;
+background: #27652c;;
+}
+form input[type="radio"]{
+display: none;
+
+}
+/*ends here........*/
+
+
+/*style for special request*/
+textarea{
+height: 100px;
+width: 100%;
+outline:none;
+border-radius: 5px;
+border: 1px solid #ccc;
+padding: 10px;
+font-size: 16px;
+border-bottom-width: 2px;
+transition: all 0.3s ease;
+}
+textarea:focus,
+textarea:valid{
+border-color: #27652c;;
+}
+/*ends here....*/
+form .button{
+height: 45px;
+margin: 45px 0;
+}
+
+form .button input{
+height: 100%;
+width: 100%;
+outline: none;
+color: #fff;
+border: none;
+font-size: 18px;
+font-weight: 500;
+border-radius: 5px;
+letter-spacing: 1px;
+background: #27652c;;
+}
+form .button input:hover{
+background: green;
+}
+@media(max-width: 584px){
+.container{
+max-width: 100%;
+}
+form .user_details .input_box{
+margin-bottom: 15px;
+width:100%;
+}
+form .gender_details .category{
+width: 100%;
+}
+.container form .user_details{
+max-height: 300px;
+overflow-y: scroll;
+}
+.user_detals::-webkit-scrollbar{
+width: 0;
+}
+}
